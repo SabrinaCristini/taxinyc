@@ -34,7 +34,7 @@ selected_columns_taxi = read_files_taxi.select(
 
 selected_columns_taxi.show()
 
-path_to_save = "s3a://ifod-processo-seletivo/silver/"
+path_to_save = "s3a://ifood-processo-seletivo/silver/"
 
 ##write files on s3a
 selected_columns_taxi = spark.write \
